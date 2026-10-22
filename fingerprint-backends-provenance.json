@@ -1,0 +1,27 @@
+{
+  "source": "https://github.com/goldfish07/android_vendor_samsung_m11q",
+  "source_commit": "b2f931394ab4560134f0eace4fbe5ea710897ed7",
+  "reported_source_firmware": "M115FXXU2AUA3 / Android 10",
+  "loader_sha256_before": "8ba64ea8b026f7060fd482889bf1feda526eb55509a22f8a150bce3971e0359b",
+  "loader_sha256_after": "3b0971b45b8e097454c692684a4e50f7ad6eadae68cb50a9c153966fb0e74e3b",
+  "module_order_after": [
+    "fingerprint.silead",
+    "fingerprint.focaltech",
+    "fingerprint.egis",
+    "cdfinger.fingerprint"
+  ],
+  "new_files": {
+    "proprietary/vendor/lib/hw/cdfinger.fingerprint.default.so": "2d71af3678cc52e8fa70c8cd51f9a240ec1054fe2007af5db0f41fcd8124e858",
+    "proprietary/vendor/lib/hw/fingerprint.egis.default.so": "e5e2741b15caab9d5d53541024dd8d191932f4ed2ab4b6c2734a081a52c6918d",
+    "proprietary/vendor/lib/vendor.egistec.hardware.fingerprint@4.0.so": "c1bf3918dd07c3842e785f8769c0ed617383520aa469c6f9a1f992c1cd02b1ef"
+  },
+  "existing_backends_unchanged": {
+    "fingerprint.focaltech.default.so": "0cbfd3f6b21411933204322c8eaf660d0c7561de25f1308d19d530fd0009ce3b",
+    "fingerprint.silead.default.so": "6f689aab2301781ab6f8a03277eceae67f970173e699c36094918c8b9857ef83"
+  },
+  "hardware_validation": "User reports Focaltech M11 fingerprint working after building/flashing the integration. CDFinger, Egis and Silead variants still require community validation; the reported failing A11 sensor variant is not yet identified.",
+  "applicable_roms": [
+    "crDroid",
+    "CherishOS"
+  ]
+}

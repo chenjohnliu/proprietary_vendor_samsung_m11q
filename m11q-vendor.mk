@@ -604,6 +604,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m11q/proprietary/vendor/lib/hw/face.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/face.default.so \
     vendor/samsung/m11q/proprietary/vendor/lib/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.silead.default.so \
     vendor/samsung/m11q/proprietary/vendor/lib/hw/fingerprint.focaltech.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.focaltech.default.so \
+    vendor/samsung/m11q/proprietary/vendor/lib/hw/cdfinger.fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/cdfinger.fingerprint.default.so \
+    vendor/samsung/m11q/proprietary/vendor/lib/hw/fingerprint.egis.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.egis.default.so \
+    vendor/samsung/m11q/proprietary/vendor/lib/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.egistec.hardware.fingerprint@4.0.so \
     vendor/samsung/m11q/proprietary/vendor/lib/hw/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libRbsFlow.so \
     vendor/samsung/m11q/proprietary/vendor/lib/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.qcom.so \
     vendor/samsung/m11q/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.esepowermanager@1.1-impl.so \
